@@ -1,0 +1,94 @@
+:root {
+    --primaryColor: #1A2C4D;
+    --secondaryColor: #4D81C8;
+}
+
+/* Body Common Styles */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-base {
+    font-size: var(--bs-body-font-size);
+}
+
+.text-primary {
+    color: var(--primary-background) !important;
+}
+
+.text-gray {
+    color: var(--gray100);
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--primaryColor);
+    --bs-btn-color: #FFF;
+    --bs-btn-border-color: var(--primaryColor);
+    --bs-btn-hover-bg: var(--primaryColor);
+    --bs-btn-hover-border-color: var(--primaryColor);
+    --bs-btn-focus-shadow-rgb: none;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--primaryColor);
+    --bs-btn-active-border-color: var(--primaryColor);
+    --bs-btn-active-shadow: none;
+    --bs-btn-disabled-color: #fff;
+    border-width: 2px;
+}
+
+.btn-primary:hover {
+    --bs-btn-color: #fff;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #000;
+    --bs-btn-border-color: #000;
+}
+
+.btn:hover {
+    color: #FFF;
+    background-color: #000;
+    border-color: #000;
+}
+
+.fw-bolder {
+    font-weight: 900 !important;
+}
+
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+
+
+/* Headings */
+h1 {
+    font-size: 53px;
+    color: var(--primaryColor)
+}
+
+h2 {
+    color: var(--secondaryColor);
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+/* hero section */
+.heroBanner {
+    background: #FFF;
+    background-size: cover;
+}
+
+.heroBanner .btn {
+    padding: 13px 35px;
+    border-radius: 50px;
+    font-size: 18px;
+}

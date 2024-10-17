@@ -1,0 +1,58 @@
+@media (max-width: 1365px) {
+    .heroBanner .btn {
+        padding: 13px 30px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 1199px) {
+
+
+    h1 {
+        font-size: 39px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .heroBanner .btn {
+        padding: 11px 18px;
+        font-size: 16px;
+    }
+
+    .heroBanner .btn {
+        padding: 11px 14px;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 991px) {
+
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+
+}
+
+@media only screen and (max-width:767px) {
+    p {
+        line-height: 23px;
+    }
+
+    .heroBanner .btn {
+        padding: 13px 20px;
+        font-size: 16px;
+        width: 100%;
+    }
+}
