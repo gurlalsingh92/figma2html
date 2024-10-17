@@ -1,11 +1,15 @@
-@media (max-width: 1365px) {
+@media (max-width: 1439px) {
     .heroBanner .btn {
         padding: 13px 30px;
     }
+}
+
+@media (max-width: 1365px) {
 
     h1 {
         font-size: 45px;
     }
+
 }
 
 @media (max-width: 1199px) {
@@ -42,6 +46,20 @@
         font-size: 25px;
     }
 
+    .topImg,
+    .bottomImg {
+        max-height: 100px;
+        width: 150px;
+        right: -10px;
+        top: -24px;
+    }
+
+    .bottomImg {
+        top: auto;
+        left: -25px;
+        right: auto;
+        bottom: 15px;
+    }
 
 }
 
@@ -54,5 +72,20 @@
         padding: 13px 20px;
         font-size: 16px;
         width: 100%;
+    }
+
+    .topImg,
+    .bottomImg {
+        max-height: 100px;
+        width: 150px;
+        right: 40px;
+        top: -40px;
+    }
+
+    .bottomImg {
+        top: auto;
+        left: 35px;
+        right: auto;
+        bottom: -30px;
     }
 }
